@@ -4,7 +4,7 @@ function DescriptionCard({ imgsrc, title, content }) {
   return (
     <div
       className="relative md:max-w-[336px] md:max-h-[349px] rounded-lg overflow-hidden
-      bg-white group transition-all duration-500 ease-in-out cursor-pointer shadow-xl"
+      bg-white group transition-all duration-500 ease-in-out cursor-pointer shadow-xl p-10 md:p-0"
     >
       {/* Gradient Background Overlay */}
       <div
