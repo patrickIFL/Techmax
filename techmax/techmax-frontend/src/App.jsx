@@ -1,9 +1,10 @@
 import DescriptionSection from "./components/DescriptionSection"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
+import WhoWeAre from "./components/WhoWeAre"
 
 function App() {
-  
+
 
   return (
     //Main wrapper
@@ -12,7 +13,8 @@ function App() {
         <Navbar />
         <HeroSection />
         <DescriptionSection />
-        
+        <WhoWeAre />
+
 
       </div>
     </div>

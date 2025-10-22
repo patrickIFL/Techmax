@@ -3,7 +3,7 @@ import React from 'react'
 function DescriptionCard({ imgsrc, title, content }) {
   return (
     <div
-      className="relative md:max-w-[336px] md:max-h-[349px] rounded-lg overflow-hidden
+      className="relative md:max-w-[336px] md:max-h-[380px] rounded-lg overflow-hidden
       bg-white group transition-all duration-500 ease-in-out cursor-pointer shadow-xl p-10 md:p-0"
     >
       {/* Gradient Background Overlay */}
@@ -39,7 +39,7 @@ function DescriptionCard({ imgsrc, title, content }) {
       >
         <img className="w-[66px] h-[99px]" src={imgsrc} alt="" />
         <h1 className="text-xl font-semibold">{title}</h1>
-        <p className="text-md font-medium text-gray-700 group-hover:text-gray-100 transition-colors duration-500 ease-in-out">
+        <p className="text-md font-medium text-gray-700 group-hover:text-gray-100 transition-colors duration-500 ease-in-out mb-5">
           {content}
         </p>
       </div>
