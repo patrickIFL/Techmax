@@ -9,3 +9,23 @@
 *{
   font-family: 'Manrope', sans-serif;
 }
+
+.rotating-img {
+  animation: rotateInfinite 20s linear infinite;
+}
+
+@keyframes rotateInfinite {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.cta-bg{
+  background-image: url('/cta-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

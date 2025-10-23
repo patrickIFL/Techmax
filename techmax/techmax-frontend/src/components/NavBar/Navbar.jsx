@@ -7,7 +7,7 @@ function Navbar() {
   const iformatblue = "#3b82f6"
 
   return (
-    <div className='bg-gray-100'>
+    <div className='bg-gray-100 sticky z-1000 top-0'>
       <div className='max-w-6xl mx-auto h-[86.25px] bg-gray-100 flex flex-row'>
         <div className='w-45 flex justify-center items-center'>
           <img className='w-[130px]' src="/techmax-logo.png" alt="" />

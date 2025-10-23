@@ -33,15 +33,9 @@ function Features() {
         <div className="flex-1 relative">
           {/* Rotating Shape (behind main image) */}
           <img
-            className="w-100 absolute top-0 right-5 z-10"
+            className="rotating-img w-100 absolute top-0 right-5 z-10"
             src="/features-shape.png"
             alt="Feature shape"
-            animate={{ rotate: -360 }}
-            transition={{
-              repeat: Infinity,
-              ease: "linear",
-              duration: 20, // Adjust speed (smaller = faster)
-            }}
           />
 
           {/* Main Image (above shape) */}

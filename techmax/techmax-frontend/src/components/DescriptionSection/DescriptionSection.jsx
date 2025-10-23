@@ -9,20 +9,20 @@ function DescriptionSection() {
         "We provide the most responsive and functional IT design for companies and businesses worldwide",
     },
     {
-      imgsrc: "/service-1.png",
-      title: "Strategy & Discovery",
+      imgsrc: "/service-2.png",
+      title: "Custom Software Solution",
       content:
         "We provide the most responsive and functional IT design for companies and businesses worldwide",
     },
     {
-      imgsrc: "/service-1.png",
-      title: "Strategy & Discovery",
+      imgsrc: "/service-3.png",
+      title: "Technology Consulting",
       content:
         "We provide the most responsive and functional IT design for companies and businesses worldwide",
     },
     {
-      imgsrc: "/service-1.png",
-      title: "Strategy & Discovery",
+      imgsrc: "/service-4.png",
+      title: "Business Analytics",
       content:
         "We provide the most responsive and functional IT design for companies and businesses worldwide",
     },
