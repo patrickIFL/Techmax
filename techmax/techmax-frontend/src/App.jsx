@@ -1,6 +1,6 @@
-import DescriptionSection from "./components/DescriptionSection"
-import HeroSection from "./components/HeroSection"
-import Navbar from "./components/Navbar"
+import DescriptionSection from "./components/DescriptionSection/DescriptionSection"
+import HeroSection from "./components/HeroSection/HeroSection"
+import Navbar from "./components/NavBar/Navbar"
 import WhoWeAre from "./components/WhoWeAre"
 
 function App() {
