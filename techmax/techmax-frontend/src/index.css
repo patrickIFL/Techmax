@@ -37,6 +37,21 @@
   background-repeat: no-repeat;
 }
 
+.skill-bg{
+  background-image: url('/skill-bg.jpg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testi-bg{
+  background-image: url('/testi-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
 .scrollbar-hide{
   -ms-overflow-style: none;
   scrollbar-width: none;

@@ -16,10 +16,7 @@ function Experience() {
   ];
 
   return (
-    <div className="relative mt-50">
-
-      <div
-      ></div>
+    <div className="relative mt-50 skill-bg pb-50">
 
       <div className="max-w-6xl mx-auto  flex flex-col relative z-10">
         <div className="flex justify-between items-center ">

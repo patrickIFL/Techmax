@@ -7,6 +7,7 @@ import HeroSection from "./components/HeroSection/HeroSection"
 import Navbar from "./components/NavBar/Navbar"
 import WhoWeAre from "./components/WhoWeAre"
 import Team from "./components/Team"
+import Testimonies from "./components/Testimonies"
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
   return (
     //Main wrapper
     <div className="h-screen bg-gray-900">
-        <Navbar />
+      <Navbar />
 
       <div className="h-screen">
         <HeroSection />
@@ -24,6 +25,7 @@ function App() {
         <Achievements />
         <Features />
         <Team />
+        <Testimonies />
         <Footer />
 
 
