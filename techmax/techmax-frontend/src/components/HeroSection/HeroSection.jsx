@@ -3,7 +3,7 @@ import BlueCircle from './BlueCircle'
 
 function HeroSection() {
   return (
-    <div className='hero-bg h-full relative'>
+    <section className='hero-bg h-full relative'>
       <BlueCircle />
 
       <div className='flex h-[80vh] max-w-6xl mx-auto'>
@@ -13,14 +13,14 @@ function HeroSection() {
             We bring great Ideas to life</p>
           <p className='tracking-wide font-bold text-md'>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
           <div>
-            <button  utton className='bg-[#1972D7] px-15 py-4 rounded-lg'>Read More</button>
+            <button className='bg-[#1972D7] px-15 py-4 rounded-lg'>Read More</button>
           </div>
         </div>
 
         {/* empty div for space */}
         <div className='flex-2/5' />
       </div>
-    </div>
+    </section>
   )
 }
 

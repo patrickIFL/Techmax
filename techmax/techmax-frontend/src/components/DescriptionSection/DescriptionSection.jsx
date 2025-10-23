@@ -29,7 +29,7 @@ function DescriptionSection() {
   ];
 
   return (
-    <div className="block max-w-6xl mx-auto relative px-4">
+    <section className="block max-w-6xl mx-auto relative px-4">
       {/* Wrapper div controls height so layout stays intact */}
       <div className="relative min-h-[360px]">
         <div
@@ -46,7 +46,7 @@ function DescriptionSection() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

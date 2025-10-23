@@ -1,4 +1,5 @@
 import DescriptionSection from "./components/DescriptionSection/DescriptionSection"
+import Features from "./components/Features"
 import HeroSection from "./components/HeroSection/HeroSection"
 import Navbar from "./components/NavBar/Navbar"
 import WhoWeAre from "./components/WhoWeAre"
@@ -14,6 +15,7 @@ function App() {
         <HeroSection />
         <DescriptionSection />
         <WhoWeAre />
+        <Features />
 
 
       </div>

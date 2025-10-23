@@ -4,12 +4,12 @@ import React from 'react'
 function WhoWeAre() {
   return (
     
-      <div className='flex max-w-6xl mx-auto h-[500px]'>
+      <section className='flex max-w-6xl mx-auto h-[550px]'>
         {/* images section */}
         <div className='flex-1 px-5 py-10 relative'>
           {/* laptop */}
-          <div class="relative">
-            <img class="rounded-md w-[410px] absolute top-30 right-0 z-10" src="/about-2.jpg" alt="" />
+          <div className="relative">
+            <img className="rounded-md w-[410px] absolute top-30 right-0 z-10" src="/about-2.jpg" alt="" />
 
             {/* Play Button */}
             <div className='absolute top-50 right-0 translate-1/2 w-20 h-20 z-15 '>
@@ -21,10 +21,10 @@ function WhoWeAre() {
 
           </div>
           {/* kalbo */}
-          <img class="rounded-md w-[410px] absolute top-0 left-0 z-9" src="/about-1.jpg" alt=""/>
+          <img className="rounded-md w-[410px] absolute top-0 left-0 z-9" src="/about-1.jpg" alt=""/>
 
           {/* dotted img */}
-          <img class="rounded-md w-[75%] absolute top-20 left-10 z-8" src="/ab-shape.png" alt=""/>
+          <img className="rounded-md w-[75%] absolute top-20 left-10 z-8" src="/ab-shape.png" alt=""/>
         </div>
 
         {/* end of section 1 */}
@@ -91,7 +91,7 @@ function WhoWeAre() {
         </div>
         </div>
 
-      </div>
+      </section>
   )
 }
 
