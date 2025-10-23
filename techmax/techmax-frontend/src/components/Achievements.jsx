@@ -1,26 +1,32 @@
 import React from 'react'
+import Counter from './Counter';
 
 function Achievements() {
     const achievements = [
         {
             icon:"counter-1.png",
-            count: "354+",
-            text: "Completed Projects"
+            count: 354,
+            text: "Completed Projects",
+            unit: "number"
         },
         {
             icon:"counter-2.png",
-            count: "119+",
-            text: "Satisfied Clients"
+            count: 119,
+            text: "Satisfied Clients",
+            unit: "number"
         },
         {
             icon:"counter-3.png",
-            count: "99%",
-            text: "Web Site Analyse"
+            count: 99,
+            text: "Web Site Analyse",
+            unit: "percentage"
+
         },
         {
             icon:"counter-4.png",
-            count: "321+",
-            text: "Clients Supoort Done"
+            count: 321,
+            text: "Clients Supoort Done",
+            unit: "number"
         },
     ];
 
@@ -32,7 +38,7 @@ function Achievements() {
 
             
             {achievements.map((achievement, index) => (
-                <Achievement key={index} icon={achievement.icon} count={achievement.count} text={achievement.text} />
+                <Achievement key={index} unit={achievement.unit} icon={achievement.icon} count={achievement.count} text={achievement.text} />
             ))}
 
 
@@ -45,12 +51,13 @@ function Achievements() {
 
 export default Achievements
 
-const Achievement = ({icon, count, text}) => {
+const Achievement = ({icon, count, text, unit}) => {
     return (
        <div class="flex flex-col justify-center items-center text-center gap-1">
                 <img class="w-20" src={icon} alt="" />
                 <p class="text-white font-bold text-5xl mt-5">
-                    {count}
+                    <Counter target={count} />
+                    {unit === "percentage" ? "%" : "+"}
                 </p>
 
                 <p class="text-white text-balance">

@@ -6,7 +6,7 @@ import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection/HeroSection"
 import Navbar from "./components/NavBar/Navbar"
 import WhoWeAre from "./components/WhoWeAre"
-import Team from "./Team"
+import Team from "./components/Team"
 
 function App() {
 
