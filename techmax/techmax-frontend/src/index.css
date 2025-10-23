@@ -30,6 +30,13 @@
   background-repeat: no-repeat;
 }
 
+.counter-bg{
+  background-image: url('/counter-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .scrollbar-hide{
   -ms-overflow-style: none;
   scrollbar-width: none;
