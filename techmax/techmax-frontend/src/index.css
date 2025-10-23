@@ -44,3 +44,7 @@
 .scrollbar-hide::-webkit-scrollbar{
   display: none;
 }
+
+.iformatblue{
+  color: #3b82f6;
+}

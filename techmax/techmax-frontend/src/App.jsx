@@ -1,5 +1,6 @@
 import Achievements from "./components/Achievements"
 import DescriptionSection from "./components/DescriptionSection/DescriptionSection"
+import Experience from "./components/Experience"
 import Features from "./components/Features"
 import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection/HeroSection"
@@ -19,6 +20,7 @@ function App() {
         <HeroSection />
         <DescriptionSection />
         <WhoWeAre />
+        <Experience />
         <Achievements />
         <Features />
         <Team />

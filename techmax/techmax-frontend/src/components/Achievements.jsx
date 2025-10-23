@@ -25,7 +25,7 @@ function Achievements() {
     ];
 
   return (
-    <div className='w-full counter-bg'>
+    <div className='w-full counter-bg mt-50'>
       <section class="mt-10  flex justify-center">
 
             <div class="flex flex-row lg:flex-row w-full justify-between max-w-6xl px-15 py-30 ">
