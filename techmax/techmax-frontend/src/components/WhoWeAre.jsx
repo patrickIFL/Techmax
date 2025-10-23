@@ -4,7 +4,7 @@ import React from 'react'
 function WhoWeAre() {
   return (
     
-      <section className='flex max-w-6xl mx-auto h-[550px]'>
+      <section className='flex max-w-6xl mx-auto h-[550px] mt-50'>
         {/* images section */}
         <div className='flex-1 px-5 py-10 relative'>
           {/* laptop */}
