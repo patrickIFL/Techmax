@@ -23,7 +23,7 @@ function Team() {
         },
         
         {
-            img: '/team-1.jpg',
+            img: '/team-2.jpg',
             name: 'Mike Holder',
             position: 'Founder, Techmax',
             socials: [
@@ -43,7 +43,7 @@ function Team() {
         },
         
         {
-            img: '/team-1.jpg',
+            img: '/team-3.jpg',
             name: 'Mike Holder',
             position: 'Founder, Techmax',
             socials: [
