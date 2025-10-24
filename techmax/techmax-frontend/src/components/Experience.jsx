@@ -10,7 +10,7 @@ function Experience() {
   ];
 
   const skillBars = [
-    { text: 'IT Management', level: '80%' },
+    { text: 'IT Management', level: '70%' },
     { text: 'Data Security', level: '50%' },
     { text: 'Solution', level: '20%' },
   ];

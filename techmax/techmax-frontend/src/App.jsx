@@ -8,6 +8,7 @@ import Navbar from "./components/NavBar/Navbar"
 import WhoWeAre from "./components/WhoWeAre"
 import Team from "./components/Team"
 import Testimonies from "./components/Testimonies"
+import Blogposts from "./components/Blogposts"
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Features />
         <Team />
         <Testimonies />
+        <Blogposts />
         <Footer />
 
 
